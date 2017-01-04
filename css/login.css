@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body{
+	background-color:#a5a5a5;
+	margin:0 auto;}
+
+#loginbox{
+	
+	background-color:#d7d7d7;
+	border:8px solid #00AFFF;
+	width:800px;
+	height:400px;
+	
+	}

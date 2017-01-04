@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin:0px;}
+	
+	
+#servicescontent{
+	margin:0 auto;
+
+	width:980px;
+	height:auto;
+	background-color:#FFFFFF;
+	position:relative;
+	top:200px;
+	
+	}
+	
+	
+
+	
+#servicescontent .servicescontenttop{
+
+	 width:980px;
+	 height:300px;
+	 background-image:url(../plumbingimages/servicescontent.jpg);
+	 }
+	 
+
+	
+	
+	 
+.servicescontenttop ul{
+	
+
+		text-align:center;
+		margin-top:-65px;
+		margin-left:20px;
+		font-weight:100;
+		font-size:30px;
+		float:left;
+		list-style-type:none;
+		line-height:60px;
+		
+		} 
+		
+
+	
+
+
+.servicescontenttop ul li a{
+	
+	
+	text-decoration:none;
+	color:#ffffff;
+
+	}
+	
+	
+
+.servicescontenttop ul li a:hover{
+	
+		text-decoration:none;
+	color:#27a4fe;
+
+}
+
+.servicescontenttop ul li.hilighted a{
+	
+	color:#27a4fe;}
+	 
+
+	
+.servicescontenttop img{
+	
+			float:right;			
+			margin-right:18px;
+			margin-top:-46px;
+			}
+			
+.servicesContentBottom{
+	
+	margin:0 auto;
+	position:relative;	
+	top:-15px;		
+	width:980px;
+	 height:auto;
+	 background-color:#a5a5a5;
+	 padding-bottom:10px;
+	 }
+	 
+.servicesContentBottom h2{
+		
+			padding-top:20px;
+			margin-left:15px;
+			font-weight:100;
+			font-size:24px;
+			color:#FFFFFF;
+			text-decoration:underline;
+			
+}
+
+
+.servicesContentBottom p{
+	
+	
+	font-size:18px;
+	margin:20px;
+	color:#FFFFFF;
+	font-weight:100;}
+
+
+	
+

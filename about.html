@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About us</title>
+<!--drop down form CSS-->
+<link href="css/core.css" rel="stylesheet" type="text/css" />
+<!--Prevents Numbers becoming links on iOS devices-->
+<meta name="format-detection" content="telephone=no">
+<link href="css/stil.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('plumbingimages/mainlogoreverse.png')">
+
+				
+
+<div id="wrapper"> 
+
+<!--login bar & phone(this was a PAIN!-->
+    
+<div id="topbarblue"><p>Tel:01472 345678<br />Mob:07747 123456</p></div>
+  
+  
+  <div id="topbargrey">
+  
+    <p><a href="">Login/Sign up</a></p>
+              
+  </div>
+  
+  
+  <!--logo and navBar-->
+  
+  
+  <div id="logobar"> 
+  		
+	<a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('logo','','plumbingimages/mainlogoreverse.png',1)"><img src="plumbingimages/mainlogo.png" alt="" width="251" height="120" id="logo" /></a>
+<ul>
+    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+    </ul>
+                    
+      
+  </div> <!--End of Navigation-->
+  
+  
+<!--content START-->
+						
+                        
+                        <div id="aboutwrapper"> 
+                        
+                     				<h1>About us</h1>
+                                    
+                                    
+                                    
+                      <img src="plumbingimages/ccccc.jpg"  width="460" height="276" alt="alternate text" style="float:right;"/> 
+                        
+                        <p>As a family run business since 1994 we pride ourselves on our quality workmanship, reputation and returning business recieved from our customers. All of our work previously has come from "word of mouth" and from our many loyal customers in the local areas. These range from Leading estate agents in the town, Private landlords, Insurance companies, Private house holders and many other local business's in the area, including the local council. <br /> <br />
+We carry out all aspects of gas and plumbing works, through to full project management.To learn more about our full range of services please click on the services header located at the top of this page for a comprehensive list of services we provide to our customers.Due to the workload we've now accumulated, we're now expanding and taking our business to the next level, whilst maintaining our high standards. <br />
+<br />
+All of our engineers are fully insured and qualified to the highest standards and are fully trained in all areas to provide the best service and quality to our customers.We pride ourselves on using only quality products and materials, as we like to keep down time and disruption to our clients to a minimum where possible. </p>
+                     
+                     </div>
+                     <div id="footerall">  
+
+		<div class="footerleft">
+      <p>Stop That Leak Plumbing & Heating<br />
+          <span>Specialists in all areas of plumbing & heating.</span></p> 
+           
+            <h4>Copyright &copy; A Strickland 2014</h4>
+		</div><!--end of footerleft-->
+        
+        <div class="footerright">
+        	
+            <h4>Water Street, Grimsby,<br />N.E. Lincolnshire,<br />DN31 1PT</h4>
+        
+        </div><!--end of footer right-->
+
+</div><!--end of footerall-->
+
+                     
+      </div><!--end of wrapper-->
+  
+
+                
+    
+                   
+                    
+                  
+<div class="feedback">
+	<a id="feedback_button">Callback</a>
+        
+
+	
+	<div class="form">
+	<h2>Reqest a callback</h2>
+    
+   		
+        
+ <form action="callback.php" method="post">
+   <br />
+    	<input type="text"  id="name" placeholder="Name" name="name"/>
+    
+        <input type="text"  id="phone" name="phone" placeholder="Phone"/>   <br/> <br />
+		<textarea id="feedback_text" name="message" placeholder="Message" ></textarea>
+        <br /><br />
+		<input type="submit" value="Send" id="submit_form" /> </form>
+	</div><!--end of div class form-->
+    </div>
+
+
+
+
+<script type="text/javascript">
+
+		$(document).ready
+			
+			(function ($j) {
+
+  feedback_button = {
+    
+    onReady: function () {      
+      this.feedback_button_click();
+      this.send_feedback();
+	
+	 
+
+	 
+	  
+	
+	  
+    },
+    
+    feedback_button_click: function(){
+    	$("#feedback_button").click(function(){
+    		$('.form').slideToggle();   
+		
+				
+    	});
+    },
+	
+	
+    
+    send_feedback: function(){
+    	$('#submit_form').click(function(){
+			
+		
+    	
+    	});
+    },
+    
+    
+  };
+
+  $j().ready(function () {
+	  feedback_button.onReady();
+  });
+
+})(jQuery);	
+
+			
+			
+			
+
+
+</script>
+
+</body>
+</html>

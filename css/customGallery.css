@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#designgallery ul li{
+	
+	display:inline;
+	list-style:none;
+	padding:10px;}
+
+

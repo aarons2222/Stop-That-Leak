@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Stop That Leak</title>
+
+<meta name="viewport" content="width=1260, initial-scale=0.65">
+
+<link href="css/stil.css" rel="stylesheet" type="text/css">
+<!----Prevents Numbers becoming links on iOS devices---------------------->
+<meta name="format-detection" content="telephone=no">
+<!--jQuery Library-->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script>
+
+<!-------------------------drop down form CSS --------------------------------->
+<link href="css/core.css" rel="stylesheet" type="text/css" />
+<!--leanModal.js-->
+<script type="text/javascript" src="scripts/jquery.leanModal.min-2.js"></script>
+
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc; 
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+</head>
+
+
+<!--start of content-->
+
+
+
+<body onload="MM_preloadImages('plumbingimages/mainlogoreverse.png')">
+
+
+		
+
+<div id="wrapper"> 
+
+
+
+
+
+<!--login bar & phone(this was a PAIN!!!)-->
+    
+  <div id="topbarblue"><p>Tel:01472 345678<br />Mob:07747 123456</p></div>
+  
+  
+  <div id="topbargrey">
+  
+  <div id="login"> <p><a href="#">Login/Sign up</a></p> </div>
+              
+  </div>
+  
+  
+  <!--logo and navBar-->
+  
+  
+  <div id="logobar"> 
+  		
+	<a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('logo','','plumbingimages/mainlogoreverse.png',1)"><img src="plumbingimages/mainlogo.png" alt="" width="251" height="120" id="logo" /></a>
+<ul>
+	  <li class="active"><a href="index.html" >Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    		
+                            <li><a href="services.html">Services</a>
+                    
+	  </li>
+                                     
+                    <li> <a href="contact.html">Contact</a></li>
+    </ul>
+                    
+      
+  </div> <!--End of Navigation-->
+  
+  
+<!--content START-->
+  
+<div id="homecontent">
+  
+  <div id="homecontenttopleft">
+  
+    <img src="plumbingimages/aaaaa.jpg" width="480" height="360" alt=""/> </div><!--imageEnd-->
+  
+  
+  
+  
+  <div id="homecontenttopright">
+  
+     <p>We fit taps, mend leaks, unblock toilets,<br />
+     repair showers, install new radiators,<br />
+     remove and replace tanks and cylinders,<br />
+     we also install complete plumbing systems.</p><!--paragrapghEnd-->
+  
+  </div>
+  
+  </div><!-------------------End of content top-->
+ 
+ 
+ 
+ <!--start of bottom content-->
+ 
+ 
+ <div id="homecontentbottom">
+ 
+ 
+  
+	<div id="lastparagraph"> 
+  			
+            <p align="justify">We can provide everything you<br />
+                				  need to design and create the<br />
+    							  bathroom of your dreams.</p>
+                           
+    </div> <!--end of last paragraph-->
+                
+                 
+  		<div id="bottomimage"> 
+        	
+            	<img src="plumbingimages/bbbbb.jpg" width="480" height="360" alt=""/>
+               
+      </div><!--end of bottom image-->
+                
+                
+                
+    <div id="footer"> <p>Welcome to Stop That Leak Plumbing & Heating<br />
+          <span>Specialists in all areas of plumbing & heating.</span></p> 
+          
+          <h4>Copyright &copy; A Strickland 2014</h4>
+    </div>
+                    
+     <div id="bluebutton"><a href="about.html">About Us</a></div>  
+                    
+                    
+  </div> <!--end ot home content bottom-->
+  
+</div><!--end of homecontent-->
+
+
+
+       
+                  
+
+</div><!--End of wrapper-->
+
+<div class="feedback">
+	<a id="feedback_button">Callback</a>
+        
+
+	
+	<div class="form">
+	<h2>Reqest a callback</h2>
+    
+   		
+        
+ <form action="callback.php" method="post">
+   <br />
+    	<input type="text"  id="name" placeholder="Name" name="name"/>
+    
+        <input type="text"  id="phone" name="phone" placeholder="Phone"/>   <br/> <br />
+		<textarea id="feedback_text" name="message" placeholder="Message" ></textarea>
+        <br /><br />
+		<input type="submit" value="Send" id="submit_form" /> </form>
+	</div><!--end of div class form-->
+
+
+
+
+<script type="text/javascript">
+
+		$(document).ready
+			
+			(function ($j) {
+
+  feedback_button = {
+    
+    onReady: function () {      
+      this.feedback_button_click();
+      this.send_feedback();
+	
+	 
+
+	 
+	  
+	
+	  
+    },
+    
+    feedback_button_click: function(){
+    	$("#feedback_button").click(function(){
+    		$('.form').slideToggle();   
+		
+				
+    	});
+    },
+	
+	
+    
+    send_feedback: function(){
+    	$('#submit_form').click(function(){
+			
+		
+    	
+    	});
+    },
+    
+    
+  };
+
+  $j().ready(function () {
+	  feedback_button.onReady();
+  });
+
+})(jQuery);	
+
+$("#login").leanModal({ top : 200, overlay : 0.4, closeButton: ".modal_close" });
+
+		("#showform").click();	
+			
+			
+
+
+</script>
+
+
+
+ 
+
+</body>
+
+</html>
+
+
+
